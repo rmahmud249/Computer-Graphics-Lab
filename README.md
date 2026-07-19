@@ -142,17 +142,7 @@ Project
 └── README.md
 ```
 
----
 
-# Build
-
-1. Open the solution in Visual Studio.
-2. Configure the project settings as described above.
-3. Select **x64** platform (recommended).
-4. Build the project (`Ctrl + Shift + B`).
-5. Run the project (`Ctrl + F5`).
-
----
 
 # Linked Libraries
 
@@ -161,14 +151,4 @@ Project
 
 ---
 
-# Notes
 
-- Ensure the architecture of GLFW (`x64` or `Win32`) matches your Visual Studio project configuration.
-- If using a dynamic version of GLFW, place the required `glfw3.dll` beside the generated `.exe` file.
-- If you built GLFW yourself, verify that the generated `.lib` files are located in the specified `build` directory.
-
----
-
-## Author
-
-**Md. Rasel Mahmud**
