@@ -197,12 +197,20 @@ int main()
      
 
         glm::mat4 identityMatrix = glm::mat4(1.0f);
-        drawCube(ourShader, VAO, identityMatrix, 0.0f, 0.8f, 0.0f, 0.0f, 0.0f, 0.0f, 3.0f, 0.2f, 2.0f); //top
+        drawCube(ourShader, VAO, identityMatrix, 0.0f, 0.8f, 0.0f, 0.0f, 0.0f, 0.0f, 3.0f, 0.2f, 2.0f); //top //top ->scale( height,width,depth )
         drawCube(ourShader, VAO, identityMatrix, -0.65f, 0.35f, 0.40f, 0.0f, 0.0f, 0.0f, 0.2f, 2.0f, 0.2f); // Front Left Leg
         drawCube(ourShader, VAO, identityMatrix, 0.65f, 0.35f, 0.40f, 0.0f, 0.0f, 0.0f, 0.2f, 2.0f, 0.2f); // Front Right Leg
         drawCube(ourShader, VAO, identityMatrix, -0.65f, 0.35f, -0.40f, 0.0f, 0.0f, 0.0f, 0.2f, 2.0f, 0.2f);// Back Left Leg
         drawCube(ourShader, VAO, identityMatrix, 0.65f, 0.35f, -0.40f, 0.0f, 0.0f, 0.0f, 0.2f, 2.0f, 0.2f); // Back Right Leg
         
+        drawCube(ourShader, VAO, identityMatrix, 0.0f, 0.5f, 0.0f, 0.0f, 0.0f, 0.0f, 1.5f, 0.2f, 2.5f);//SEAT
+        drawCube(ourShader, VAO, identityMatrix, -0.3f, 0.2f, 0.57f, 0.0f, 0.0f, 0.0f, 0.2f, 1.0f, 0.2f);// FRONT LEFT LEG 
+        drawCube(ourShader, VAO, identityMatrix, 0.3f, 0.2f, 0.57f, 0.0f, 0.0f, 0.0f, 0.2f, 1.0f, 0.2f);//FRONT RIGHT LEG
+        drawCube(ourShader, VAO, identityMatrix, -0.3f, 0.2f, -0.4f, 0.0f, 0.0f, 0.0f, 0.2f, 1.0f, 0.2f);//BACK LEFT LEG
+        drawCube(ourShader, VAO, identityMatrix, 0.3f, 0.2f, -0.4f, 0.0f, 0.0f, 0.0f, 0.2f, 1.0f, 0.2f);//BACK RIGHT LEG
+        drawCube(ourShader, VAO, identityMatrix, -0.3f, 1.0f, -0.3f, 0.0f, 0.0f, 0.0f, 0.2f, 1.0f, 0.2f);//BACKREST LEFT
+        drawCube(ourShader, VAO, identityMatrix, 0.3f, 1.0f, -0.3f, 0.0f, 0.0f, 0.0f, 0.2f, 1.0f, 0.2f);//BACKREST RIGHT
+        drawCube(ourShader, VAO, identityMatrix, 0.0f, 1.2f, -0.55f, 0.0f, 0.0f, 0.0f, 1.5f, 0.5f, 0.2f);// BACKREST
 
 
        // glm::mat4 tableMatrix = glm::mat4(1.0f);
