@@ -258,9 +258,28 @@ drawCube(ourShader, VAO, modelMatrix, 0.35, 0.50, 0.5, 0.0, 0.0, 0.0, 0.45, 0.45
  drawCube(ourShader, VAO, modelMatrix, 2.2, 1.9, 0.4, 0.0, 0.0, 0.0, 0.15, 0.15, 0.1, glm::vec3(0.0, 1.0, 1.0));
  drawCube(ourShader, VAO, modelMatrix, 2.6, 1.9, 0.4, 0.0, 0.0, 0.0, 0.15, 0.15, 0.1, glm::vec3(0.0, 1.0, 1.0));
 
+drawCube(ourShader, VAO, modelMatrix, -1.0, 0.25, -0.625, 0.0, 0.0, 0.0, 4.0, 0.6, 2.5, glm::vec3(0.8, 0.0, 0.0)); // Body
+drawCube(ourShader, VAO, modelMatrix, -0.55, 0.55, -0.45, 0.0, 0.0, 0.0, 2.2, 1.2, 1.8, glm::vec3(0.2, 0.2, 0.2)); // Cabin
+drawCube(ourShader, VAO, modelMatrix, -0.6, 1.15, -0.48, 0.0, 0.0, 0.0, 2.4, 0.15, 2.0, glm::vec3(0.1, 0.1, 0.1)); // Roof
+drawCube(ourShader, VAO, modelMatrix, 1.0, 0.25, -0.55, 0.0, 0.0, 0.0, 0.2, 0.5, 2.2, glm::vec3(0.1, 0.1, 0.1)); // Front Bumper
+drawCube(ourShader, VAO, modelMatrix, -1.1, 0.25, -0.55, 0.0, 0.0, 0.0, 0.2, 0.5, 2.2, glm::vec3(0.1, 0.1, 0.1)); // Back Bumper
+drawCube(ourShader, VAO, modelMatrix, 0.55, 0.0, 0.58, 0.0, 0.0, 0.0, 0.8, 0.8, 0.3, glm::vec3(0.05, 0.05, 0.05)); // Front Left Wheel
+drawCube(ourShader, VAO, modelMatrix, 0.55, 0.0, -0.78, 0.0, 0.0, 0.0, 0.8, 0.8, 0.3, glm::vec3(0.05, 0.05, 0.05)); // Front Right Wheel
+drawCube(ourShader, VAO, modelMatrix, -0.75, 0.0, 0.58, 0.0, 0.0, 0.0, 0.8, 0.8, 0.3, glm::vec3(0.05, 0.05, 0.05)); // Back Left Wheel
+drawCube(ourShader, VAO, modelMatrix, -0.75, 0.0, -0.78, 0.0, 0.0, 0.0, 0.8, 0.8, 0.3, glm::vec3(0.05, 0.05, 0.05)); // Back Right Wheel
+drawCube(ourShader, VAO, modelMatrix, 1.11, 0.55, 0.20, 0.0, 0.0, 0.0, 0.15, 0.3, 0.45, glm::vec3(1.0, 1.0, 0.0)); // Headlight Left
+drawCube(ourShader, VAO, modelMatrix, 1.11, 0.55, -0.42, 0.0, 0.0, 0.0, 0.15, 0.3, 0.45, glm::vec3(1.0, 1.0, 0.0)); // Headlight Right
+drawCube(ourShader, VAO, modelMatrix, 0.51, 0.72, -0.42, 0.0, 0.0, 0.0, 0.15, 0.7, 1.5, glm::vec3(0.1, 0.6, 0.9)); // Front Window
+drawCube(ourShader, VAO, modelMatrix, -0.30, 0.72, 0.46, 0.0, 0.0, 0.0, 1.2, 0.7, 0.12, glm::vec3(0.1, 0.6, 0.9)); // Left Window
+drawCube(ourShader, VAO, modelMatrix, -0.30, 0.72, -0.52, 0.0, 0.0, 0.0, 1.2, 0.7, 0.12, glm::vec3(0.1, 0.6, 0.9)); // Right Window
 
 
 
+        drawCube(ourShader, VAO, modelMatrix, 1.3, 0.0, 0.5, 0.0, 0.0, 0.0, 0.15, 3.0, 0.15, glm::vec3(0.1, 0.1, 0.1));
+        drawCube(ourShader, VAO, modelMatrix, 1.15, 1.0, 0.5, 0.0, 0.0, 0.0, 0.5, 1.8, 0.3, glm::vec3(0.05, 0.05, 0.05));
+        drawCube(ourShader, VAO, modelMatrix, 1.25, 1.65, 0.66, 0.0, 0.0, 0.0, 0.25, 0.25, 0.08, glm::vec3(1.0, 0.0, 0.0));
+        drawCube(ourShader, VAO, modelMatrix, 1.25, 1.35, 0.66, 0.0, 0.0, 0.0, 0.25, 0.25, 0.08, glm::vec3(1.0, 1.0, 0.0));
+        drawCube(ourShader, VAO, modelMatrix, 1.25, 1.05, 0.66, 0.0, 0.0, 0.0, 0.25, 0.25, 0.08, glm::vec3(0.0, 1.0, 0.0));
 
 
 
